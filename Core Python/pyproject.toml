@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "core python"
+version = "0.1.0"
+description = "A list of jupyter notebooks on the book \"Python - to the heights of mastery\""
+authors = ["Roman Gromov <gromov1921@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
